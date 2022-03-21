@@ -12,4 +12,6 @@ fun main() = with(Scanner(System.`in`)){
     println(a/b)
     println(a%b)
 
+
+
 }

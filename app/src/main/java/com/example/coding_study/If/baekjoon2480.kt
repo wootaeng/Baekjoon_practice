@@ -39,6 +39,7 @@ fun main(){
                 money = arr[i]
             }
         }
+
         money = money *100
         print(money)
     }
