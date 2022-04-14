@@ -9,28 +9,28 @@ import java.util.*
     출력 반복횟수만큼 문자를 반복출력
  */
 
-fun main(){
-    val sc = Scanner(System.`in`)
-
-    val t = sc.nextInt()
-//    var result = ""
-
-    repeat(t){
-        val str = sc.next().split(" ")
-        var result = ""
-
-//        val str = sc.next()
-        for (char in str) {
-            repeat(t) {
-                result += char
-            }
-        }
-        print(result)
-    }
-
-
-
-}
+//fun main(){
+//    val sc = Scanner(System.`in`)
+//
+//    val t = sc.nextInt()
+////    var result = ""
+//
+//    repeat(t){
+//        val str = sc.next().split(" ")
+//        var result = ""
+//
+////        val str = sc.next()
+//        for (char in str) {
+//            repeat(t) {
+//                result += char
+//            }
+//        }
+//        print(result)
+//    }
+//
+//
+//
+//}
 
 fun main() = with(Scanner(System.`in`)){
     val wSize = readLine()!!.toInt()
@@ -50,26 +50,26 @@ fun main() = with(Scanner(System.`in`)){
 }
 
 
-fun main(){
-    val br = BufferedReader(InputStreamReader(System.`in`))
-
-    val T = br.readLine().toInt()
-    for (k in 1..T) {
-
-        val rs = StringTokenizer(br.readLine())
-        val R = rs.nextToken().toInt()
-        val S = rs.nextToken()
-        var P = ""
-
-        for (i in 0..S.length-1) {
-            for (j in 1..R) {
-                P += S[i]
-            }
-        }
-
-        println(P)
-
-    }
-
-    br.close()
-}
+//fun main(){
+//    val br = BufferedReader(InputStreamReader(System.`in`))
+//
+//    val T = br.readLine().toInt()
+//    for (k in 1..T) {
+//
+//        val rs = StringTokenizer(br.readLine())
+//        val R = rs.nextToken().toInt()
+//        val S = rs.nextToken()
+//        var P = ""
+//
+//        for (i in 0..S.length-1) {
+//            for (j in 1..R) {
+//                P += S[i]
+//            }
+//        }
+//
+//        println(P)
+//
+//    }
+//
+//    br.close()
+//}
